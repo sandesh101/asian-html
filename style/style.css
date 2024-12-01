@@ -1,0 +1,195 @@
+/* body { */
+/* background-image: url(../assets/lizard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+/* background: url(../assets/lizard.jpg) no-repeat fixed; */
+/* background-size: cover; */
+/* background-position: bottom right; */
+/* background-attachment: fixed; */
+/* } */
+
+/* p {
+    font-size: 50px;
+} */
+
+html {
+    font-size: 40px;
+}
+
+/* p { */
+/* text-align: center; */
+/* text-transform: capitalize; */
+/* text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: red; */
+
+/* text-decoration: dashed red; */
+/* text-shadow: 2px 2px red; */
+/* text-wrap: wrap; */
+
+/* font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic; */
+/* } */
+
+
+
+
+/* p { */
+/* border-bottom: 1px solid red; */
+/* border: 1px solid black; */
+/* border: 1px solid black; */
+/* border-top: 10px solid;
+    border-bottom: 20px solid;
+    border-left: 30px solid;
+    border-right: 40px solid; */
+/* margin: 10px 20px 30px 40px; */
+/* margin-top: 10px; */
+/* margin-right: 10px;
+    margin-left: ;
+    margin-bottom: ; */
+
+
+/* padding: 10px 20px 30px 40px; */
+/* padding-top: 10px;
+    padding-left: ;
+    padding-right: ;
+    padding-bottom: ; */
+/* } */
+
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: rgb(4, 122, 35);
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: brown;
+}
+
+
+ul {
+    /* list-style-type: none; */
+    list-style-image: url('../assets/lizard.jpg');
+}
+
+table,
+th,
+td {
+    /* border: 1px solid black; */
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    width: 400px;
+    text-align: center;
+    /* overflow-x: auto; */
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(182, 182, 182);
+}
+
+/* th {
+    height: 50px;
+    background-color: green;
+    color: white;
+} */
+
+/* th:hover {
+    background-color: red;
+    color: black;
+} */
+
+/* tr:hover {
+    background-color: brown;
+    color: white;
+} */
+
+/* td {
+    height: 50px;
+} */
+
+/* 
+div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+} */
+
+/* .div1 {
+    background-color: red;
+
+}
+
+.div2 {
+    background-color: blue;
+}
+
+.div3 {
+    background-color: green;
+    position: sticky;
+    top: 0;
+}
+
+.div4 {
+    background-color: yellow;
+    position: fixed;
+} */
+
+
+/* .container {
+    position: relative;
+    height: 100px;
+    top: 30px;
+}
+
+.box {
+    position: absolute;
+    top: 30px;
+} */
+
+/* .container {
+    font-size: 30px;
+} */
+
+/* p {
+    font-size: 0.5em;
+} */
+
+/* p {
+    font-size: 2rem;
+} */
+
+
+
+.container {
+    height: 50vh;
+    border: 1px solid black;
+    display: flex;
+    /*default direction row */
+    /* flex-direction: column; */
+    /* justify-content: flex-start;
+    align-items: flex-start; */
+    /* flex-wrap: wrap;
+    align-content: center; */
+    /* justify-content: space-evenly; */
+    /* gap: 10px 20px; */
+    /* row-gap: 10px;
+    column-gap: 10px; */
+}
+
+.container>div {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 1px solid black;
+    /* margin: 10px; */
+}
